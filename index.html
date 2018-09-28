@@ -3,8 +3,8 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Startp-Observer</title>
-      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <title>Hylife</title>
+      <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
       <link href="asset/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
       <!-- Toastr style -->
@@ -14,76 +14,73 @@
       <link href="asset/css/animate.css" rel="stylesheet">
       <link href="asset/css/style.css" rel="stylesheet">
       <link href="asset/css/mystyle.css" rel="stylesheet">
-
+      <link href="asset/css/style-responsive.css" rel="stylesheet">
    </head>
    <body>
       <div id="wrapper">
          <nav class="navbar-default navbar-static-side" role="navigation">
             <div class="sidebar-collapse">
                <ul class="nav" id="side-menu">
-                  <div class="logo-header">
-                    <img src="assets/dashboard-assets/Startup Observer.png" class="img-responsive" height="">
-                  </div>
                   <li class="nav-header">
                      <div class="dropdown profile-element">
                         <span>
-                        <img alt="image" class="img-circle" src="assets/dashboard-assets/1956 copy.png" />
+                        <img alt="image" src="web/ava.png" width=""/>
                         </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                         <span class="clear"> 
                             <span class="block m-t-xs" style="color:white"> 
-                                <strong class="font-bold"> <b> JOHN DOE </b>
+                                <h2 style="font-weight:400"> Alex Shwa </h2>
                             </strong>
                         </span>
                          <span class="text-muted text-xs block" style="color:white">
-                            ABC Capital 
+                            <i class="fas fa-map-marker-alt"></i> Ho Chi Minh City, Vietnam
                         </span>
                         <br>
                         <span class="text-muted text-xs block">
-                            <i class="fas fa-cog"></i>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <i class="fas fa-user"></i>
+                            <button class="btn btn-info btn-sm btn-follow">Follow</button>
                         </span>
                     </a>
                      </div>
                   </li>
-                  <li class="active">
-                     <a href="index.html">
-                        <img src="assets/dashboard-assets/Ebene 11.png" height="18">
-                        <span class="nav-label">Dashboard</span> 
+                  <li class="active" style="border-left: 4px solid #7dc705;
+                  background: #5ca2d9;color: white;">
+                     <a href="">
+                        <i class="fas fa-home fa-2x"></i>
+                        <span class="nav-label"> <font size='3'> Dashboard </font></span> 
                     </a>
                   </li>
                   <li>
-                     <a href="layouts.html">
-                        <i class="fab fa-readme"></i>
-                        <span class="nav-label">List of all Startups</span> 
+                     <a href="" style="color: white;">
+                        <i class="fas fa-project-diagram fa-2x"></i>
+                        <span class="nav-label"> <font size='3'> Protocol </font> </span> 
                      </a>    
                   </li>
                   <li>
-                     <a href="mailbox.html">
-                         <i class="far fa-hourglass"></i> 
-                         <span class="nav-label">Open request startups </span>
+                     <a href="" style="color: white;">
+                        <i class="fas fa-clipboard-list fa-2x"></i>
+                         <span class="nav-label"> <font size=3> Protocol List </font></span>
                     </a>
                   </li>
-                  <li>
-                     <a href="widgets.html">
-                         <i class="fas fa-inbox"></i> 
-                         <span class="nav-label">My Startups</span>
-                     </a>
-                  </li>
+                  <div class="settings">
+                        <i class="fas fa-cog fa-2x"></i>
+                        <i class="fas fa-power-off fa-2x pull-right"></i>
+                  </div> 
                </ul>
             </div>
          </nav>
          <div id="page-wrapper" class="gray-bg dashbard-1">
-            <div class="row border-bottom">
+            <div class="row border-bottom header-menu">
                <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                   <div class="navbar-header">
                      <a class="navbar-minimalize minimalize-styl-2 btn btn-primary visible-xs" href="#"><i class="fa fa-bars"></i> </a>
                   </div>
+                  <span class="welcom-logo">
+                    <img src="web/welcome-logo.png" alt="" style="padding:10px">
+                  </span>
                   <ul class="nav navbar-top-links navbar-right">
                      <li class="dropdown">
                         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="far fa-bell"></i>  <span class="label label-warning">16</span>
+                            <i class="fas fa-envelope fa-2x" style="color:white"></i>  <span class="label label-danger">86</span>
                         </a>
                         <ul class="dropdown-menu dropdown-messages">
                            <li>
@@ -128,7 +125,7 @@
                            <li>
                               <div class="text-center link-block">
                                  <a href="mailbox.html">
-                                 <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
+                                 <i class="fa fa-envelope" ></i> <strong>Read All Messages</strong>
                                  </a>
                               </div>
                            </li>
@@ -136,166 +133,144 @@
                      </li>
                      <li class="dropdown">
                         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                            <i class="fas fa-cog"></i> 
+                                <i class="fas fa-bookmark fa-2x" style="color:white"></i></span> <span class="label label-danger">6</span>
                         </a>
                      </li>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fas fa-search fa-2x " style="color:white"></i>
+                        </a>
+                    </li>
                   </ul>
                </nav>
             </div>
-            <div class="row  border-bottom white-bg dashboard-header">
-                <div class="col-lg-12">
-                    <h2>Dashboard</h2>
-                    <ol class="breadcrumb">
-                        <li class="active">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <strong>Dashboard</strong>
-                        </li>
-                    </ol>
+            <div class="row white-bg" style="margin-top:3em">
+                <div class="col-md-1 col-sm-2 col-xs-2">
+                    <h3>Sort By:</h3>
                 </div>
-                <div class="row">
-                    <div class="col-md-8" style="margin-top:0.5em">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-title">
-                                <h5 class="font-bold">Requests</h5>
-                                <div class="ibox-tools">
-                                    <a class="collapse-link">
-                                        <i class="fa fa-chevron-up"></i>
-                                    </a>
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                        <i class="fa fa-wrench"></i>
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-user">
-                                        <li><a href="#">Config option 1</a>
-                                        </li>
-                                        <li><a href="#">Config option 2</a>
-                                        </li>
-                                    </ul>
-                                    <a class="close-link">
-                                        <i class="fa fa-times"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="ibox-content">
-                                <div id="chartContainer1" style="height: 300px; width: 100%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="widget style1 tile-white-bg">
-                            <div class="row">
-                                <div class="col-xs-8">
-                                    <h4 class="font-bold">Since last Login</h4>
-                                    <h1 class="font-bold">87.500</h1>  
-                                </div>
-                                <div class="col-xs-4 text-right">
-                                    <i class="fa fa-user-friends fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="progress progress-small">
-                                <div style="width: 60%;" class="progress-bar"></div>
-                            </div>
-                        </div>
-
-                        <div class="widget style1 tile-white-bg">
-                                <div class="row">
-                                    <div class="col-xs-8">
-                                        <h1 class="font-bold">385</h1> 
-                                        Granted Request 
-                                    </div>
-                                    <div class="col-xs-4 text-right">
-                                        <i class="fa fa-user-plus fa-2x"></i>
-                                    </div>
-                                </div>
-                                <div class="progress progress-small">
-                                    <div style="width: 60%;" class="progress-bar"></div>
-                                </div>
-                            </div>
-                    </div>
+                <div class="col-md-2 col-sm-3 col-xs-3">
+                    <button class="btn btn-info btn-sm tag-btn">
+                        Name <i class="fas fa-times" style="padding-left:1em"></i>
+                    </button>
                 </div>
-                <div class="row" style="margin-top:2em">
-                    <div class="col-md-6">
-                        <div class="ibox float-e-margins">
-                                <div class="ibox-title">
-                                    <h5 class="font-bold">Startup on Startups Observer</h5>
-                                    <div class="ibox-tools">
-                                        <a class="collapse-link">
-                                            <i class="fa fa-chevron-up"></i>
-                                        </a>
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                            <i class="fa fa-wrench"></i>
-                                        </a>
-                                        <ul class="dropdown-menu dropdown-user">
-                                            <li><a href="#">Config option 1</a>
-                                            </li>
-                                            <li><a href="#">Config option 2</a>
-                                            </li>
-                                        </ul>
-                                        <a class="close-link">
-                                            <i class="fa fa-times"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="ibox-content">
-                                    <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-content">
-                                <div class="spotlight-header">
-                                    <h2 class="font-bold">Spotlight</h2>
-                                </div>
-                                <div class="row">
-                                    <br>
-                                    <div class="col-xs-5 col-sm-4">
-                                        <img src="assets/dashboard-assets/Gruppe 13 copy.png" alt="">
-                                    </div>
-                                    <div class="col-xs-7 col-sm-7">
-                                        <h2 class="font-bold" style="padding-top:2em">TECHWOLF</h2>
-                                    </div>
-                                </div>    
-                                <div class="row" style="margin-top:1.5em">
-                                    <div class="col-xs-6 font-bold">
-                                        <h3>Sector: Deeptech</h3> 
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <h3>Location: Munich, Germany</h3> 
-                                    </div>
-                                </div>
-                                <p class="font-bold" style="margin-top:1em">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
-                                </p>
-
-                                <p class="font-bold" style="margin-top:1em">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-
-                                <p>
-                                    <button type="button" class="btn btn-block btn-outline btn-primary font-bold"> <h3><b>More Info</b></h3> </button>
-                                </p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
+                <div class="col-md-2 col-sm-3 col-xs-3">
+                    <button class="btn btn-info btn-sm tag-btn">
+                        Number <i class="fas fa-times" style="padding-left:1em"></i>
+                    </button>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3">
+                    <button class="btn btn-info btn-sm tag-btn">
+                        Created by <i class="fas fa-times" style="padding-left:1em"></i>
+                    </button>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-4 create-date">
+                    <button class="btn btn-info btn-sm tag-btn" style="margin-left:1.5em">
+                        Create date <i class="fas fa-times" style="padding-left:1em"></i>
+                    </button>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-4">
+                    <button class="btn btn-success btn-lg green-btn">
+                        Download All
+                    </button>
+                </div>
             </div>
-            <div class="row" style="margin-top:14em">
-               <div class="col-lg-12">
-                  <div class="wrapper wrapper-content">
-                     <div class="row">
-                     </div>
-                  </div>
-                  <div class="footer">
-                     <div class="pull-right">
-                        <strong>Help | Legal</strong>.
-                     </div>
-                     <div>
-                        <strong>Copyright 2017 Startup Observer</strong> 
-                     </div>
-                  </div>
-               </div>
+            <div class="row" style="margin-top:3em;">
+                <div class="col-md-7 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading green-heading">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <span style="font-size:16px">204</span>
+                                    <i class="fas fa-bookmark" style="font-size: 20px;"></i>
+                                </div>
+                                <div class="col-xs-11">
+                                    <h3>
+                                        Evaluation of feeling Alltech Pork Quality
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p> <b>Created By:</b> Arun Pillai on April 15.2018</p>
+                            <p> <b>Tags:</b> Protocol, Pro, Quality</p>
+                            <p> <b>Download:</b> <font color="#7dc705">Protocol Results</font></p>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading blue-heading">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <span style="font-size:16px">273</span>
+                                    <i class="fas fa-bookmark" style="font-size: 20px;"></i>
+                                    </div>
+                                        <div class="col-xs-11">
+                                        <h3>Evaluation of Turval B0399 on Nursery feed Program</h3>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p> <b>Created By:</b> Arun Pillai on April 15.2018</p>
+                            <p> <b>Tags:</b> Protocol, Pro, Quality</p>
+                            <p> <b>Download:</b> <font color="#69c2fb">Protocol Results</font></p>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading green-heading">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <span style="font-size:16px">284</span>
+                                    <i class="fas fa-bookmark" style="font-size: 20px;"></i>
+                                </div>
+                                <div class="col-xs-11">
+                                    <h3>
+                                        Evaluation of feeling Alltech Pork Quality
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p> <b>Created By:</b> Arun Pillai on April 15.2018</p>
+                            <p> <b>Tags:</b> Protocol, Pro, Quality</p>
+                            <p> <b>Download:</b> <font color="#7dc705">Protocol Results</font></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h1 class="text-center" style="font-weight:bold">Search</h1>
+                            <form style="margin-top:3em">
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg" placeholder="Search Keywords">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg" placeholder="Tags">
+                                </div>
+                                <div class="form-group">
+                                    <select name="" class="form-control input-lg" id="">
+                                        <option value="">Category</option>
+                                    </select>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" checked> <span class="text-muted">Has Results</span>
+                                    </label>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-success btn-lg green-btn">Submit</button>
+                                    <button type="submit" class="btn btn-success btn-lg green-btn">Clear</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-info plus-btn btn-lg pull-right" style="border-radius:50px">
+                    <i class="fas fa-plus fa-2x"></i>
+                </button>
             </div>
          </div>
       </div>
@@ -316,93 +291,5 @@
     <!-- GITTER -->
     <script src="asset/js/plugins/gritter/jquery.gritter.min.js"></script>
 
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-    
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script> -->
-
    </body>
 </html>
-
-<script>
-    window.onload = function () {
-
-    var chart = new CanvasJS.Chart("chartContainer1", {
-        exportEnabled: true,
-        animationEnabled: true,
-        title:{
-            text: ""
-        },
-        subtitles: [{
-            text: ""
-        }], 
-        axisX: {
-            title: "States"
-        },
-        toolTip: {
-            shared: true
-        },
-        legend: {
-            cursor: "pointer",
-            itemclick: toggleDataSeries
-        },
-        data: [{
-            type: "column",
-            name: "Open",
-            showInLegend: true,      
-            yValueFormatString: "#,##0.# Units",
-            dataPoints: [
-                { label: "January",  y: 19034.5 },
-                { label: "Febuary",  y: 20088 },
-                { label: "March", y: 20015 },
-                { label: "April", y: 25342 },
-                { label: "May",  y: 28234 }
-            ]
-        },
-        {
-            type: "column",
-            name: "Granted",
-            axisYType: "secondary",
-            showInLegend: true,
-            yValueFormatString: "#,##0.# Units",
-            dataPoints: [
-                { label: "January", y: 210.5 },
-                { label: "Febuary", y: 135 },
-                { label: "March", y: 425 },
-                { label: "April", y: 130 },
-                { label: "May", y: 528 }
-            ]
-        }]
-    });
-    chart.render();
-
-    function toggleDataSeries(e) {
-        if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-            e.dataSeries.visible = false;
-        } else {
-            e.dataSeries.visible = true;
-        }
-        e.chart.render();
-    }
-
-    }
-var chart = new CanvasJS.Chart("chartContainer2",
-    {
-        animationEnabled: true,
-        title: {
-            text: "",
-        },
-        data: [
-        {
-            type: "pie",
-            showInLegend: true,
-            dataPoints: [
-                { y: 4181563, legendText: "New Startups", indexLabel: "New Startups" },
-                { y: 2175498, legendText: "Updated Startups", indexLabel: "Updated Startups" },
-                { y: 3125844, legendText: "Deleted Startupd", indexLabel: "Deleted Startupd" },
-            ]
-        },
-        ]
-    });
-chart.render();
-</script>

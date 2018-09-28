@@ -1,58 +1,56 @@
 @media only screen and (max-width : 1200px) 
 {   
-    .hotshite
-    {
-        margin-top: 4em;
-    }
-    .startup-sidebar .startup-info
-    {
-        padding:3em -0em 0em 2em;
+    .nav-tabs > li > a {
+        padding: 10px 27px 24px 32px;
+        color: black;
     }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) 
 {
-
-    .current-down
+    .create-date
     {
-        margin-top: 2em;
+        margin:1.5em 0em 0em 6em;
     }
-    .newset-down
+    .green-btn
     {
-        margin-top:2em
-    } 
-    .startup-sidebar .startup-info
-    {
-        text-align:center;
-        padding:3em -0em 0em 0em;
-    }
-    .heading
-    {
-        text-align: center;
+        margin-top: 1em
     }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) 
 {
-    .competitor
-    {
-        text-align: center;
+    .welcom-logo {
+        display: inline-block;
     }
-    .border-right
-    {
-        text-align: center;
+    
+    .navbar-top-links {
+        display: inline-block;
     }
-    .team-details
+    .settings
     {
-        text-align: center;
+        padding:0px 1.5em 0px 1.9em
+    }
+    .fa-power-off
+    {
+        margin-top: 0.5em;
     }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) 
 {
+    .tag-btn
+    {
+        padding: 5px 0.5em;
+        font-size: 12px;
+    }
+    .create-date
+    {
+        margin:1.5em 0em 0em 0em;
+    }
 }
 
 /* Custom, iPhone Retina */ 

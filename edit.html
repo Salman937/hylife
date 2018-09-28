@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hylife</title>
+      <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
+      <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      <!-- Toastr style -->
+      <link href="asset/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+      <!-- Gritter -->
+      <link href="asset/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+      <link href="asset/css/animate.css" rel="stylesheet">
+      <link href="asset/css/style.css" rel="stylesheet">
+      <link href="asset/css/mystyle.css" rel="stylesheet">
+      <link href="asset/css/style-responsive.css" rel="stylesheet">
+
+   </head>
+   <body>
+      <div id="wrapper">
+         <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <span>
+                            <img alt="image" src="web/ava.png" width=""/>
+                            </span>
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> 
+                                <span class="block m-t-xs" style="color:white"> 
+                                    <h2 style="font-weight:400"> Alex Shwa </h2>
+                                </strong>
+                            </span>
+                            <span class="text-muted text-xs block" style="color:white">
+                                <i class="fas fa-map-marker-alt"></i> Ho Chi Minh City, Vietnam
+                            </span>
+                            <br>
+                            <span class="text-muted text-xs block">
+                                <button class="btn btn-info btn-sm btn-follow">Follow</button>
+                            </span>
+                        </a>
+                        </div>
+                    </li>
+                    <li class="active" style="border-left: 4px solid #7dc705;
+                  background: #5ca2d9;color: white;">
+                     <a href="">
+                        <i class="fas fa-home fa-2x"></i>
+                        <span class="nav-label"> <font size='3'> Dashboard </font></span> 
+                    </a>
+                  </li>
+                  <li>
+                     <a href="" style="color: white;">
+                        <i class="fas fa-project-diagram fa-2x"></i>
+                        <span class="nav-label"> <font size='3'> Protocol </font> </span> 
+                     </a>    
+                  </li>
+                  <li>
+                     <a href="" style="color: white;">
+                        <i class="fas fa-clipboard-list fa-2x"></i>
+                         <span class="nav-label"> <font size=3> Protocol List </font></span>
+                    </a>
+                  </li>
+                  <div class="settings">
+                        <i class="fas fa-cog fa-2x"></i>
+                        <i class="fas fa-power-off fa-2x pull-right"></i>
+                  </div>  
+                </ul>
+            </div>
+         </nav>
+         <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary visible-xs" href="#"><i class="fa fa-bars"></i> </a>
+                    </div>
+                    <img src="web/welcome-logo.png" alt="" style="padding:10px">
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                                <i class="fas fa-envelope fa-2x" style="color:white"></i>  <span class="label label-danger">86</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-messages">
+                                <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                    <img alt="image" class="img-circle" src="img/a7.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <small class="pull-right">46h ago</small>
+                                        <strong>Mike Loreipsum</strong> started following <strong>Monica Smith</strong>. <br>
+                                        <small class="text-muted">3 days ago at 7:58 pm - 10.06.2014</small>
+                                    </div>
+                                </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                    <img alt="image" class="img-circle" src="img/a4.jpg">
+                                    </a>
+                                    <div class="media-body ">
+                                        <small class="pull-right text-navy">5h ago</small>
+                                        <strong>Chris Johnatan Overtunk</strong> started following <strong>Monica Smith</strong>. <br>
+                                        <small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
+                                    </div>
+                                </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                    <img alt="image" class="img-circle" src="img/profile.jpg">
+                                    </a>
+                                    <div class="media-body ">
+                                        <small class="pull-right">23h ago</small>
+                                        <strong>Monica Smith</strong> love <strong>Kim Smith</strong>. <br>
+                                        <small class="text-muted">2 days ago at 2:30 am - 11.06.2014</small>
+                                    </div>
+                                </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                <div class="text-center link-block">
+                                    <a href="mailbox.html">
+                                    <i class="fa fa-envelope" ></i> <strong>Read All Messages</strong>
+                                    </a>
+                                </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                                    <i class="fas fa-bookmark fa-2x" style="color:white"></i></span> <span class="label label-danger">6</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                                <i class="fas fa-search fa-2x " style="color:white"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row" style="margin-top:3em;">
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h1 class="font-bold">Protocol Details</h1>
+                            <form style="margin-top:3em">
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg" placeholder="Number">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <select name="" class="form-control input-lg" id="">
+                                        <option value="">Category</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <br><br>
+                            <h2 class="font-bold">Tags:</h2>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # Name
+                            </button>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # Number
+                            </button>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # Created Date
+                            </button>
+                            <br>
+                            <br>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                    # Created By
+                                </button>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                    # Created By
+                            </button>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # Name
+                            </button>
+                            <br>
+                            <br>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # Number
+                            </button>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # Created Date
+                            </button>
+                            
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # Name
+                            </button>
+                            <br>
+                            <br>
+                            <button class="btn btn-info btn-sm tag-btn">
+                                # NUmber
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="active">
+                            <a href="#"> <h2 class="font-bold">PROTOCOL FILES</h2> </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">
+                                <img src="web/new-document.png" alt="">
+                                <br>
+                                <span style="font-weight:lighter">ADD</span>
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">
+                                <img src="web/delete.png" alt="">
+                                <br>
+                                <span style="font-weight:lighter">DELETE</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Basic for UX Designer</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>10 steps to improve your wireframe</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A Better way To Request App Ratings</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center font-bold">Show more <i class="fas fa-angle-double-down"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="active">
+                            <a href="#"> <h2 class="font-bold" style="color:#7dc705">RESULT FILES</h2> </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">
+                                <img src="web/new-document.png" alt="">
+                                <br>
+                                <span style="font-weight:lighter">ADD</span>
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">
+                                <img src="web/delete.png" alt="">
+                                <br>
+                                <span style="font-weight:lighter">DELETE</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Basic for UX Designer</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>10 steps to improve your wireframe</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A Better way To Request App Ratings</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center font-bold">Show more <i class="fas fa-angle-double-down"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="active">
+                            <a href="#"> <h2 class="font-bold">MICS FILES</h2> </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">
+                                <img src="web/new-document.png" alt="">
+                                <br>
+                                <span style="font-weight:lighter">ADD</span>
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">
+                                <img src="web/delete.png" alt="">
+                                <br>
+                                <span style="font-weight:lighter">DELETE</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Basic for UX Designer</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>10 steps to improve your wireframe</td>
+                                    </tr>
+                                    <tr>
+                                        <td>A Better way To Request App Ratings</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center font-bold">Show more <i class="fas fa-angle-double-down"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Mainly scripts -->
+    <script src="asset/js/jquery-2.1.1.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="asset/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="asset/js/inspinia.js"></script>
+    <script src="asset/js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="asset/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="asset/js/plugins/gritter/jquery.gritter.min.js"></script>
+
+   </body>
+</html>
